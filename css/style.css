@@ -1,0 +1,36 @@
+/* general design start */
+.custom-container{
+    padding: 10px 90px;
+    height: 76px;
+}
+
+@media (max-width: 992px){
+    .custom-container{
+        padding: 0;
+    }
+}
+/* general design end */
+
+/* custom nav style start */
+.custom-nav{
+    background-color: #ffffff;
+    height: 76px;
+}
+
+.nav-list{
+    font-size: 18px;
+    margin: 0 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.custom-nav-link{
+    color: #888888;
+}
+
+.contact-us{
+    color: #ffffff !important;
+    border-radius: 5px;
+    background-color: #2979F2;
+    padding: 10px 20px !important;
+}
+/* custom nav style start */
