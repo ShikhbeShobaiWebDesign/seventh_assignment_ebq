@@ -3,6 +3,9 @@
 /* font link */
 
 /* general design start */
+*{
+    max-width: 100%;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -117,3 +120,73 @@ body{
     right: 10px;
 }
 /* header design end */
+
+/* company extension design start */
+.extension-header{
+    margin-top: 100px;
+}
+.extension-header h1,p{
+    color: #2B2B2B;
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto 24px auto;
+    text-align: center;
+}
+
+.extension-header h1{
+    font-size: 50px;
+}
+
+.extension-header p{
+    font-size: 20px;
+}
+.extension-items{
+    width: 100%;
+}
+.extension-item{
+    margin-bottom: 50px;
+}
+.extension-item i{
+    font-size: 25px;
+    color: #2979F2;
+    display: inline-block;
+}
+.extension-item span{
+    font-size: 27px;
+    display: inline-block;
+    color: #2979F2;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.extension-item p{
+    text-align: left;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+.extension-item a{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.extension-item i{
+    font-size: 22px;
+}
+
+@media (max-width: 1200px){
+    .custom-container{
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px){
+    .extension-item{
+        margin-left: 30px !important;
+    }
+}
+/* company extension design end */
