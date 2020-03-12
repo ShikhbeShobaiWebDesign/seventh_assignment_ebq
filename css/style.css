@@ -12,7 +12,7 @@ body{
 
 .custom-container{
     padding: 10px 150px;
-    height: 76px;
+    /* height: 76px; */
 }
 
 @media (max-width: 992px){
