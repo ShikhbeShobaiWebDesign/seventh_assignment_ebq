@@ -190,3 +190,43 @@ body{
     }
 }
 /* company extension design end */
+
+/* offer design start */
+.offer{
+    background-color: #fafafa;
+    text-align: left;
+}
+.offer p{
+    text-align: left    ;
+}
+/* offer design end */
+
+/* success story design start */
+.story-header{
+    background-color: #2979F2;
+}
+
+.story-header h3{
+    text-align: center;
+}
+
+.story-header img{
+    width: 75% !important;
+    margin: 0 auto !important;
+}
+.success-content{
+    height: 100%    ;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.story-text-content{
+    padding: 0 30px;
+}
+
+.story-text-content h4{
+    margin-bottom: 30px !important;
+}
+/* success story design end */
